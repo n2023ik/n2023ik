@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Booking Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('/home/ni/nik.c/krishna hotel/index.png');
+            background-size: cover;
+            background-position: center;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header {
+            text-align: center;
+            padding: 60px;
+            background-color: rgb(30, 30, 139);
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 3em;
+            color:white;
+        }
+        .header p {
+            font-size: 1.3em;
+            color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .room {
+            background: grey;
+            border-radius: 10px;
+            padding: 20px;
+            width: 320px;
+            text-align: center;
+            margin: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .room:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+        }
+        .room img {
+            width: 100%;
+            border-radius: 10px;
+            max-height: 220px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .room img:hover {
+            transform: scale(1.05);
+        }
+        .price {
+            font-size: 1.6em;
+            margin: 10px 0;
+            color: white;
+        }
+        .book-button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 1.1em;
+            margin-top: 10px;
+        }
+        .book-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .room {
+                width: 90%;
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+            background-color: white;
+            border-top: 1px solid white;
+            color: black;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        footer h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: black;
+        }
+        footer p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to Krishna Hotel Room Booking</h1>
+        <p>Experience luxury and comfort like never before!</p>
+    </div>
+
+    <div class="container">
+        <div class="room">
+            <h2>Deluxe Room</h2>
+            <img src="/home/ni/nik.c/krishna hotel/room2.png" alt="Deluxe Room">
+            <div class="price">Price: ₹10,000</div>
+            <p>Enjoy a comfortable stay in our beautifully designed Deluxe Room with all modern amenities.</p>
+            <a href="deluxe_booking.html" class="book-button">Book Now</a>
+        </div>
+
+        <div class="room">
+            <h2>Super Deluxe Room</h2>
+            <img src="room1.jpg" alt="Super Deluxe Room">
+            <div class="price">Price: ₹15,000</div>
+            <p>Experience ultimate luxury in our Super Deluxe Room, featuring premium furnishings and breathtaking views.</p>
+            <a href="super_deluxe_booking.html" class="book-button">Book Now</a>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Contact Us</h3>
+        <p><strong>Phone no :</strong> <strong>8273646729</strong></p>
+        <p><STRONG>Email:</STRONG> <a style="color : blue"> krishnahotel777@hotel.ac.in</a></p>
+        <p><strong>Location:</strong> <strong>ABC Kamlanagar, Agra</strong></p>
+        <p><strong>Established:</strong> <strong>2005</strong></p>
+        <p><strong>&copy; 2024 Krishna Hotel. All Rights Reserved.</strong></p>
+    </footer>
+</body>
+</html>

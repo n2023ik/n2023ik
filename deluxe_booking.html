@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking on Deluxe Room</title>
+    <style>
+        body {
+            background-image: url('/home/ni/nik.c/krishna hotel/room2.png');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.7); 
+            padding: 30px;
+            text-align: center;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        .price {
+            font-size: 1.8em;
+            margin: 20px 0;
+            color: #28a745;
+        }
+        input, select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            font-size: 1em;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        .book-button {
+            color: #fff;
+            font-size: 1.2em;
+            background: #007bff;
+            padding: 12px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.3s;
+        }
+        .book-button:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+        .payment-details {
+            display: none;
+            margin-top: 10px;
+        }
+        label {
+            display: block;
+            font-size: 0.9em;
+            margin-top: 10px;
+            color: #ccc;
+        }
+        @media (max-width: 600px) {
+            .overlay {
+                width: 90%;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .price {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+    <script>
+        function togglePaymentFields() {
+            const paymentMethod = document.getElementById('payment-method').value;
+            const cardDetails = document.getElementById('card-details');
+            const upiDetails = document.getElementById('upi-details');
+            const cardInput = document.getElementById('card_number');
+            const upiInput = document.getElementById('upi_id');
+
+            if (paymentMethod === 'credit-card' || paymentMethod === 'debit-card') {
+                cardDetails.style.display = 'block';
+                upiDetails.style.display = 'none';
+                cardInput.required = true;
+                upiInput.required = false;
+            } else if (paymentMethod === 'upi') {
+                cardDetails.style.display = 'none';
+                upiDetails.style.display = 'block';
+                cardInput.required = false;
+                upiInput.required = true;
+            } else {
+                cardDetails.style.display = 'none';
+                upiDetails.style.display = 'none';
+                cardInput.required = false;
+                upiInput.required = false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="overlay">
+        <h1>Book Your Super Deluxe Room</h1>
+        <div class="price">Price: ₹15,000</div>
+        <p>Experience ultimate luxury in our Super Deluxe Room, featuring premium furnishings and breathtaking views.</p>
+
+        <form action="book_room.php" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="contact_number">Contact Number</label>
+            <input type="tel" id="contact_number" name="contact_number" placeholder="Enter your contact number" required>
+
+            <label for="booking_date">Booking Date</label>
+            <input type="date" id="booking_date" name="booking_date" required>
+
+            <label for="payment-method">Payment Method</label>
+            <select id="payment-method" name="payment_method" onchange="togglePaymentFields()" required>
+                <option value="">Select Payment Method</option>
+                <option value="credit-card">Credit Card</option>
+                <option value="debit-card">Debit Card</option>
+                <option value="upi">UPI</option>
+            </select>
+
+            <div id="card-details" class="payment-details">
+                <label for="card_number">Card Number</label>
+                <input type="text" id="card_number" name="card_number" placeholder="Enter your card number">
+            </div>
+
+            <div id="upi-details" class="payment-details">
+                <label for="upi_id">UPI ID</label>
+                <input type="text" id="upi_id" name="upi_id" placeholder="Enter your UPI ID">
+            </div>
+            
+            <button type="submit" class="book-button">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>
