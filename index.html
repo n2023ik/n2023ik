@@ -118,23 +118,57 @@
             <div class="services-grid">
                 <div class="service-card">
                     <i class="fas fa-cut"></i>
-                    <h3>Haircut</h3>
-                    <p>Professional haircuts for all styles</p>
+                    <h3>Haircut & Styling</h3>
+                    <p>Professional haircuts and styling for all hair types</p>
+                    <div class="service-price">
+                        <span class="price">₹2,075 - ₹3,735</span>
+                        <span class="duration">30-45 min</span>
+                    </div>
                 </div>
                 <div class="service-card">
                     <i class="fas fa-paint-brush"></i>
                     <h3>Hair Coloring</h3>
-                    <p>Expert color treatments</p>
+                    <p>Full color, highlights, and balayage services</p>
+                    <div class="service-price">
+                        <span class="price">₹5,395 - ₹9,960</span>
+                        <span class="duration">1.5-3 hours</span>
+                    </div>
                 </div>
                 <div class="service-card">
                     <i class="fas fa-spa"></i>
-                    <h3>Beard Trim</h3>
-                    <p>Precise beard grooming</p>
+                    <h3>Facial Treatments</h3>
+                    <p>Rejuvenating facials and skin care treatments</p>
+                    <div class="service-price">
+                        <span class="price">₹3,735 - ₹7,055</span>
+                        <span class="duration">45-60 min</span>
+                    </div>
                 </div>
                 <div class="service-card">
                     <i class="fas fa-magic"></i>
-                    <h3>Styling</h3>
-                    <p>Professional hair styling</p>
+                    <h3>Makeup Services</h3>
+                    <p>Professional makeup for any occasion</p>
+                    <div class="service-price">
+                        <span class="price">₹2,905 - ₹6,225</span>
+                        <span class="duration">45-60 min</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h3>Nail Care</h3>
+                    <p>Manicures, pedicures, and nail art</p>
+                    <div class="service-price">
+                        <span class="price">₹2,075 - ₹4,565</span>
+                        <span class="duration">45-90 min</span>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-gift"></i>
+                    <h3>Special Packages</h3>
+                    <p>Combined services for special occasions</p>
+                    <div class="service-price">
+                        <span class="price">₹9,960 - ₹20,750</span>
+                        <span class="duration">2-4 hours</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -151,40 +185,117 @@
 
         <!-- Appointment Booking Section -->
         <section id="booking">
-            <h2>Book an Appointment</h2>
-            <form class="booking-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
+            <div class="booking-container">
+                <div class="booking-communication">
+                    <div class="communication-header">
+                        <div class="header-content">
+                            <h3>Chat with Us</h3>
+                            <span class="status-indicator online">Online Now</span>
+                        </div>
+                        <div class="header-actions">
+                            <button class="minimize-btn"><i class="fas fa-minus"></i></button>
+                        </div>
+                    </div>
+                    <div class="chat-messages">
+                        <div class="message system">
+                            <div class="message-header">
+                                <i class="fas fa-robot"></i>
+                                <span>Fama Assistant</span>
+                            </div>
+                            <p>Welcome to Fama Barber Shop! How can we help you today?</p>
+                        </div>
+                        <div class="message system">
+                            <div class="message-header">
+                                <i class="fas fa-robot"></i>
+                                <span>Fama Assistant</span>
+                            </div>
+                            <p>Our team typically responds within 5 minutes. Feel free to ask any questions about our services or book an appointment.</p>
+                        </div>
+                    </div>
+                    <div class="quick-questions">
+                        <h4>Quick Questions</h4>
+                        <div class="questions-grid">
+                            <button class="quick-question">
+                                <i class="fas fa-clock"></i>
+                                <span>Working Hours</span>
+                            </button>
+                            <button class="quick-question">
+                                <i class="fas fa-door-open"></i>
+                                <span>Walk-ins?</span>
+                            </button>
+                            <button class="quick-question">
+                                <i class="fas fa-cut"></i>
+                                <span>Service Duration</span>
+                            </button>
+                            <button class="quick-question">
+                                <i class="fas fa-credit-card"></i>
+                                <span>Payment Methods</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" placeholder="Type your message here...">
+                        <button class="send-button"><i class="fas fa-paper-plane"></i></button>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" required>
+                <div class="booking-form-container">
+                    <h2>Book an Appointment</h2>
+                    <form class="booking-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email">
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Select Service</label>
+                                <select id="service" name="service" required>
+                                    <option value="">Choose a service</option>
+                                    <option value="haircut">Haircut & Styling (₹2,075 - ₹3,735)</option>
+                                    <option value="coloring">Hair Coloring (₹5,395 - ₹9,960)</option>
+                                    <option value="facial">Facial Treatments (₹3,735 - ₹7,055)</option>
+                                    <option value="makeup">Makeup Services (₹2,905 - ₹6,225)</option>
+                                    <option value="nail">Nail Care (₹2,075 - ₹4,565)</option>
+                                    <option value="package">Special Package (₹9,960 - ₹20,750)</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Preferred Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Preferred Time</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="stylist">Preferred Stylist (Optional)</label>
+                            <select id="stylist" name="stylist">
+                                <option value="">Any available stylist</option>
+                                <option value="jason">Jason Rodriguez (Master Barber)</option>
+                                <option value="marcus">Marcus Williams (Senior Barber)</option>
+                                <option value="terrence">Terrence Jackson (Barber & Stylist)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests</label>
+                            <textarea id="message" name="message" rows="3" placeholder="Any specific requirements or preferences?"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Book Appointment</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="date">Date</label>
-                    <input type="date" id="date" name="date" required>
-                </div>
-                <div class="form-group">
-                    <label for="time">Time</label>
-                    <input type="time" id="time" name="time" required>
-                </div>
-                <div class="form-group">
-                    <label for="service">Service</label>
-                    <select id="service" name="service" required>
-                        <option value="">Select a service</option>
-                        <option value="Haircut">Haircut</option>
-                        <option value="Hair Coloring">Hair Coloring</option>
-                        <option value="Beard Trim">Beard Trim</option>
-                        <option value="Styling">Styling</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="3"></textarea>
-                </div>
-                <button type="submit" class="cta-button">Book Appointment</button>
-            </form>
+            </div>
         </section>
 
         <section id="contact">
