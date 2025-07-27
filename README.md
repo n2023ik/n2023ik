@@ -13,27 +13,39 @@
   <img src="https://komarev.com/ghpvc/?username=n2023ik&color=0c95ff&style=flat-square" alt="visitor count" />
 </p>
 
+---
+
 ## 🌟 About Me
+
 - 🎯 Passionate about clean UI, performance, and responsive design  
 - ⚙️ Exploring JavaScript frameworks and modern frontend ecosystems  
 - 🧩 Enjoy debugging, optimizing, and pushing pixels with purpose  
 - 🤝 Open to collaborations, hackathons, and real-world projects  
 - 👨‍💻 Pronouns: He/Him  
-- ☕ Fun fact: I solve logic puzzles during coffee breaks!  
+- ☕ Fun fact: I solve logic puzzles during coffee breaks!
+
+---
 
 ## 🔗 My Portfolio
+
 🌐 Check out my work 👉 [my-portfoli-qrs6.vercel.app](https://my-portfoli-qrs6.vercel.app)
 
 <p align="center">
   <img src="https://media.licdn.com/dms/image/v2/D4D22AQE5eUsx6ob57A/feedshare-shrink_1280/B4DZeyTtFoGkAo-/0/1751043203615?e=1756339200&v=beta&t=6yJwNFkQlpPd5hKV_BpU1xETOneMs7H6PVwmJHyWMUg" alt="Portfolio Preview" width="80%" />
 </p>
 
+---
+
 ## 🛠️ Tech Stack & Tools
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,react,nodejs,php,mysql,github,vscode" />
 </p>
 
+---
+
 ## 📊 GitHub Stats
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=n2023ik&show_icons=true&theme=tokyonight&hide_border=true&title_color=0c95ff&icon_color=0c95ff" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=n2023ik&theme=tokyonight&hide_border=true&ring=0c95ff&fire=0c95ff&currStreakLabel=ffffff" width="48%" />
@@ -47,15 +59,23 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=n2023ik&theme=tokyo-night&hide_border=true&area=true&color=0c95ff" width="95%" />
 </p>
 
+---
+
 ## 🏆 GitHub Trophy Showcase
+
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=n2023ik&theme=tokyonight&margin-w=10&no-frame=true" />
 </p>
 
+---
+
 ## 📬 Connect with Me
+
 - 📧 Email: [pandeynikhil429@gmail.com](mailto:pandeynikhil429@gmail.com)  
 - 💼 LinkedIn: [linkedin.com/in/nikhil-pandey-45b276276](https://linkedin.com/in/nikhil-pandey-45b276276)  
 - 🌐 Portfolio: [my-portfoli-qrs6.vercel.app](https://my-portfoli-qrs6.vercel.app)
+
+---
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0C95FF&width=435&lines=Let's+build+something+amazing+together!;Frontend+is+my+playground+%F0%9F%8E%AE;Always+learning%2C+always+growing+%F0%9F%93%9A;" />
