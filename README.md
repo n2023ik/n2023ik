@@ -28,10 +28,10 @@
 
 ## 🔗 My Portfolio
 
-🌐 Check out my work 👉 [my-portfoli-qrs6.vercel.app](https://my-portfoli-qrs6.vercel.app)
+🌐 Check out my work 👉 [my-portfoli](https://n2023ik.github.io/my-portfoli/)
 
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4D22AQE5eUsx6ob57A/feedshare-shrink_1280/B4DZeyTtFoGkAo-/0/1751043203615?e=1756339200&v=beta&t=6yJwNFkQlpPd5hKV_BpU1xETOneMs7H6PVwmJHyWMUg" alt="Portfolio Preview" width="80%" />
+  <img src="https://github.com/n2023ik/my-portfoli/blob/main/profile.png?raw=true" alt="Portfolio Preview" width="80%" />
 </p>
 
 ---
