@@ -1,37 +1,42 @@
-<!-- 🌊 Animated Header -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0c95ff&height=230&section=header&text=Nikhil%20Pandey%20(@n2023ik)&fontSize=40&fontColor=ffffff&animation=fadeIn" alt="header" />
 </p>
 
-<h2 align="center">👋 Hello! I'm <span style="color:#0c95ff;">Nikhil Pandey</span> (@n2023ik)</h2>
+<h2 align="center">👋 Hello! I'm <span style="color:#0c95ff;">Nikhil Pandey</span></h2>
 
 <p align="center">
   💻 <b>Frontend Developer</b> • 🎨 <b>UI/UX Enthusiast</b> • 🌐 <b>Tech Explorer</b> • 🚀 <b>Lifelong Learner</b>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=n2023ik&color=0c95ff&style=flat-square" alt="visitor count" />
+  <a href="https://github.com/n2023ik">
+    <img src="https://komarev.com/ghpvc/?username=n2023ik&color=0c95ff&style=flat-square" alt="visitor count" />
+  </a>
 </p>
 
 ---
 
 ## 🌟 About Me
 
-- 🎯 Passionate about clean UI, performance, and responsive design  
-- ⚙️ Exploring JavaScript frameworks and modern frontend ecosystems  
-- 🧩 Enjoy debugging, optimizing, and pushing pixels with purpose  
-- 🤝 Open to collaborations, hackathons, and real-world projects  
-- 👨‍💻 Pronouns: He/Him  
-- ☕ Fun fact: I solve logic puzzles during coffee breaks!
+- 🎯 **Focus:** Passionate about clean UI, performance, and responsive design.
+- ⚙️ **Tech:** Exploring JavaScript frameworks and modern frontend ecosystems.
+- 🧩 **Solver:** I enjoy debugging, optimizing, and pushing pixels with purpose.
+- 🤝 **Collaboration:** Open to collaborations, hackathons, and real-world projects.
+- 👨‍💻 **Pronouns:** He/Him
+- ☕ **Fun fact:** I solve logic puzzles during coffee breaks!
 
 ---
 
 ## 🔗 My Portfolio
 
-🌐 Check out my work 👉 [my-portfoli](https://n2023ik.github.io/my-portfoli/)
+🌐 **Check out my live work here:** <a href="https://my-portfoli-qrs6.vercel.app">
+  <img src="https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio Link" />
+</a>
 
 <p align="center">
-  <img src="https://github.com/n2023ik/my-portfoli/blob/main/profile.png?raw=true" alt="Portfolio Preview" width="80%" />
+  <a href="https://my-portfoli-qrs6.vercel.app">
+    <img src="https://github.com/n2023ik/my-portfoli/blob/main/profile.png?raw=true" alt="Portfolio Preview" width="80%" style="border-radius: 10px; border: 2px solid #0c95ff;" />
+  </a>
 </p>
 
 ---
@@ -52,7 +57,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=n2023ik&theme=tokyonight" width="90%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=n2023ik&layout=compact&theme=tokyonight&hide_border=true&title_color=0c95ff" width="48%" />
 </p>
 
 <p align="center">
@@ -71,9 +76,19 @@
 
 ## 📬 Connect with Me
 
-- 📧 Email: [pandeynikhil429@gmail.com](mailto:pandeynikhil429@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/nikhil-pandey-45b276276](https://linkedin.com/in/nikhil-pandey-45b276276)  
-- 🌐 Portfolio: [my-portfoli-qrs6.vercel.app](https://my-portfoli-qrs6.vercel.app)
+<p align="center">
+  <a href="mailto:pandeynikhil429@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/nikhil-pandey-45b276276">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://my-portfoli-qrs6.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-Web-0c95ff?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+  </a>
+</p>
 
 ---
 
