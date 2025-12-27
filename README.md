@@ -1,8 +1,12 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0c95ff&height=230&section=header&text=Nikhil%20Pandey&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0c95ff&height=240&section=header&text=Nikhil%20Pandey&fontSize=42&fontColor=ffffff&animation=fadeIn" />
 </p>
 
-<h2 align="center">Frontend Developer & UI Engineer</h2>
+<h2 align="center">Frontend Developer • UI Engineer</h2>
+
+<p align="center">
+  Building fast, clean, user-focused web interfaces
+</p>
 
 <p align="center">
   <a href="https://github.com/n2023ik">
@@ -12,40 +16,50 @@
 
 ---
 
-## 👨‍💻 About Me  
+## 🚀 About Me
 
-Self-taught frontend developer focused on clean interfaces, responsive layouts, and smooth user experience. Currently improving in React, Tailwind and frontend performance optimization.  
+I’m a **self-taught frontend developer** focused on **UI quality, performance, and real-world usability**.  
+I don’t just build pages — I build **interfaces that feel smooth and intentional**.
 
-- Passion for UI/UX  
-- Learning modern JS ecosystem  
-- Love building real-life projects  
-- Open for internships & collaborations  
+**What I care about:**
+- Pixel-clean UI & responsive layouts  
+- Writing readable, maintainable React code  
+- Performance & UX over flashy nonsense  
+- Learning by building **actual projects**, not tutorials  
+
+🎯 **Actively looking for internships, junior frontend roles, and collaborations**
 
 ---
 
-## 🔗 Portfolio  
+## 🌐 Portfolio
 
-<p>
+<p align="center">
   <a href="https://my-portfoli-qrs6.vercel.app">
-    <img src="https://img.shields.io/badge/Live%20Portfolio-black?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/View%20Live%20Portfolio-black?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://github.com/n2023ik/my-portfoli/blob/main/profile.png?raw=true" width="80%" style="border-radius:10px;border:1px solid #0c95ff" />
+  <img src="https://github.com/n2023ik/my-portfoli/blob/main/profile.png?raw=true"
+       width="85%"
+       style="border-radius:12px;border:1px solid #0c95ff" />
 </p>
 
 ---
 
-## 🛠 Tech Stack  
+## 🧩 Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,php,mysql,git,github,vscode" />
 </p>
 
+<p align="center">
+  <sub>Frontend-first mindset • Backend basics for full-stack awareness</sub>
+</p>
+
 ---
 
-## 📊 GitHub Stats  
+## 📊 GitHub Stats
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=n2023ik&show_icons=true&theme=tokyonight&hide_border=true" />
@@ -58,7 +72,7 @@ Self-taught frontend developer focused on clean interfaces, responsive layouts, 
 
 ---
 
-## 📈 Activity  
+## 📈 Contribution Activity
 
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=n2023ik&theme=tokyo-night&hide_border=true&area=true" />
@@ -66,15 +80,15 @@ Self-taught frontend developer focused on clean interfaces, responsive layouts, 
 
 ---
 
-## 🏆 Achievements  
+## 🏆 Highlights
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=n2023ik&theme=tokyonight&margin-w=10&no-frame=true" />
+  <img src="https://github-profile-trophy.vercel.app/?username=n2023ik&theme=tokyonight&margin-w=12&no-frame=true" />
 </p>
 
 ---
 
-## 📬 Contact  
+## 📬 Let’s Connect
 
 <p align="center">
   <a href="mailto:pandeynikhil429@gmail.com">
@@ -91,7 +105,9 @@ Self-taught frontend developer focused on clean interfaces, responsive layouts, 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=0C95FF&width=435&lines=Frontend+Developer;React+Learner;UI+focused" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=0C95FF&width=500&lines=Frontend+Developer;React+Focused+Builder;UI+%26+UX+Driven;Always+Building" />
 </p>
 
-<p align="center">⭐ Thanks for visiting</p>
+<p align="center">
+  ⭐ Star a repo if something helped you
+</p>
