@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0c95ff&height=240&section=header&text=Nikhil%20Pandey&fontSize=42&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0c95ff&height=230&section=header&text=Nikhil%20Pandey&fontSize=40&fontColor=ffffff&animation=fadeIn" />
 </p>
 
 <h2 align="center">Frontend Developer • UI Engineer</h2>
 
 <p align="center">
-  Building fast, clean, user-focused web interfaces
+  I build fast, clean, and user-focused web interfaces
 </p>
 
 <p align="center">
@@ -18,16 +18,15 @@
 
 ## 🚀 About Me
 
-I’m a **self-taught frontend developer** focused on **UI quality, performance, and real-world usability**.  
-I don’t just build pages — I build **interfaces that feel smooth and intentional**.
+Self-taught **frontend developer** with a strong focus on **UI quality, performance, and usability**.
 
-**What I care about:**
-- Pixel-clean UI & responsive layouts  
-- Writing readable, maintainable React code  
-- Performance & UX over flashy nonsense  
-- Learning by building **actual projects**, not tutorials  
+I don’t chase trends. I focus on:
+- Clean component structure  
+- Responsive, accessible layouts  
+- Readable, maintainable React code  
+- Solving real UI problems through projects  
 
-🎯 **Actively looking for internships, junior frontend roles, and collaborations**
+🎯 **Open to internships, junior frontend roles, and collaborations**
 
 ---
 
@@ -40,9 +39,11 @@ I don’t just build pages — I build **interfaces that feel smooth and intenti
 </p>
 
 <p align="center">
-  <img src="https://github.com/n2023ik/my-portfoli/blob/main/profile.png?raw=true"
-       width="85%"
-       style="border-radius:12px;border:1px solid #0c95ff" />
+  <img
+    src="https://github.com/n2023ik/my-portfoli/blob/main/profile.png?raw=true"
+    width="80%"
+    style="border-radius:12px;border:1px solid #0c95ff"
+  />
 </p>
 
 ---
@@ -54,7 +55,7 @@ I don’t just build pages — I build **interfaces that feel smooth and intenti
 </p>
 
 <p align="center">
-  <sub>Frontend-first mindset • Backend basics for full-stack awareness</sub>
+  <sub>Frontend-first • Backend basics for full-stack understanding</sub>
 </p>
 
 ---
@@ -62,12 +63,21 @@ I don’t just build pages — I build **interfaces that feel smooth and intenti
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=n2023ik&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=n2023ik&theme=tokyonight&hide_border=true" />
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=n2023ik&show_icons=true&theme=tokyonight&hide_border=true"
+    height="170"
+  />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com?user=n2023ik&theme=tokyonight&hide_border=true"
+    height="170"
+  />
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=n2023ik&layout=compact&theme=tokyonight&hide_border=true" />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=n2023ik&layout=compact&theme=tokyonight&hide_border=true"
+    height="150"
+  />
 </p>
 
 ---
@@ -75,16 +85,20 @@ I don’t just build pages — I build **interfaces that feel smooth and intenti
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=n2023ik&theme=tokyo-night&hide_border=true&area=true" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=n2023ik&theme=tokyo-night&hide_border=true"
+    width="100%"
+  />
 </p>
 
 ---
 
 ## 🏆 Highlights
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=n2023ik&theme=tokyonight&margin-w=12&no-frame=true" />
-</p>
+- Consistent project-based learning  
+- Strong focus on UI/UX and frontend fundamentals  
+- Hands-on experience with React + Tailwind  
+- Actively improving code quality and structure  
 
 ---
 
@@ -105,9 +119,11 @@ I don’t just build pages — I build **interfaces that feel smooth and intenti
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=0C95FF&width=500&lines=Frontend+Developer;React+Focused+Builder;UI+%26+UX+Driven;Always+Building" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=900&color=0C95FF&width=520&lines=Frontend+Developer;React+Focused+Builder;UI+and+UX+Driven;Always+Building"
+  />
 </p>
 
 <p align="center">
-  ⭐ Star a repo if something helped you
+  ⭐ If something helped you, star the repo
 </p>
